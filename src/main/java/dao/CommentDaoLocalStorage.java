@@ -5,6 +5,7 @@ import model.Comment;
 import java.util.*;
 import java.util.stream.Collectors;
 
+
 public class CommentDaoLocalStorage implements CommentDao {
     private List<Comment> comments = new LinkedList<>();
 
